@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+
+
+
+.bar{
+    display: table;
+    float: right;
+    width: 100%;
+    padding-bottom: 10;
+    background-color: rgb(212, 238, 228);
+}
+
+.bar h1{
+    font-family: Georgia, serif;
+    color: rgb(6, 70, 100);
+    text-shadow:  2px 1px gray;
+    padding: 20px;
+}
+
+.nav{
+    display: table; 
+    float: right;
+    margin-right: 20px;
+    float: right;
+}
+
+
+
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+    padding-bottom: 20px;
+    color: gray;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav a  :hover{
+    color: navy;
+}
+
+
+
+.home-container{
+    width: 100%;
+    float: left;
+}
+
+
+
+.bio{
+    width: 100%;
+}
+.about {
+    background: #fff;
+     /* border: 1px solid black; */
+     margin-top: 10px;
+}
+
+.about .about-container .background{
+    min-height: 300px;
+    background: url(programmer.png) center top no-repeat;
+    margin-top: 20px;
+    margin-bottom: 10px;   
+}
+
+.about .about-container .title {
+    font-weight: 700;
+}
+.about .about-container .title {
+        padding-top: 25px;
+}
+.about .about-container p {
+    line-height: 26px;
+}
+.about .about-container p{
+    margin-bottom: 0;
+}
+.about .about-container .icon-box {
+    background: #fff;
+    background-size: cover;
+    padding: 0 0 30px 0;
+}
+.about .about-container .icon-box .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+}
+.about .about-container .icon-box .icon i {
+    color: #2dc997;
+    font-size: 24px;
+    line-height: 0;
+}
+.about .about-container .icon-box .title {
+    margin-left: 80px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.about .about-container .icon-box .title a {
+    color: #111;
+    text-decoration: none;
+}
+.about .about-container .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+
+
+.services{
+    padding: 80px 0 60px 0;
+}
+.section-header h3{
+    text-align: center; 
+    font-size: 40px;  
+}
+.section-header p{
+    text-align: center;
+    color: #999;
+    padding: 15px;
+}
+.services .box{
+    padding: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+    background: #dee5e8;
+    height: 200px;
+    border: 1px solid #b8d5df;
+    border-radius: 10px;
+}
+
+.services .box:hover {
+    background: #fff;
+    border: 1px solid #2dc997;
+}
+.services .box:hover i{
+    color: #2dc997;
+}
+.detail{
+    background: url(call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;   
+}
+.detail h3{
+    color: #fafafa;
+    font-weight: 700;
+}
+.detail p{
+    color: #fafafa;
+}
+
+.contac{
+    background-color: #f7f7f7;
+}
+.contac h1{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 90px;
+}
+.info p{
+    color: #666666;
+    padding: 0 0 10px 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.info i{
+    font-size: 32px;
+    color: #2dc997;
+    float: left;
+}
+.social-links{
+    padding: 20px;
+}
+.social-links i{
+   font-size: 18px;
+   background: #333;
+   color: #fff;
+   border-radius: 50%;
+   text-align: center;
+   width: 36px;
+   height: 36px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+}
+.social-links:hover i{
+    background: #2dc997;
+    color: #fafafa;
+}
+.submitbtn input{
+    color: white;
+	border-color: white;
+	background-color: #2dc997;
+	font-size: 19px;
+	margin-right: 200px;
+	margin-top: 27px;
+	margin-bottom: 35px;
+	padding: 10px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background-color: #343b40;
+	color: #fff;   
+    padding: 30px 0;
+}
+.footer h3{
+	font-size: 16px;
+	margin-top: 20px;
+	font-weight: 300;
+}
+.footer p{
+	font-size: 15px;
+	margin: 15px;
+	font-weight: 300;
+}
+.footer span{
+	color: #2dc997;
+}
+
+
+
+
+img{
+    width: 300px;
+    align-items: center;
+    padding: 50px;
+}
+
+/* Card Hover */
+
+.content {
+    position: relative;
+    width: 50%;
+    margin: px;
+  }
+
+  .content :hover{
+    transform: scale(1.05);
+    transition: transform .2s ease;
+   
+  }
+
+
+  .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    height: 0;
+    transition: .5s ease;
+    margin-bottom: -5px;
+  }
+
+
+     
+  .content:hover .overlay {
+    height: 30%;
+    width: 100%;
+  }
+  
+  .txt  p{
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+
+  .txt{
+    margin: 15px;
+  }
+  
+
+  .image{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+
+    /* for Logo start */
+
+  .fade-in-text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+    animation: fadeIn 5s;
+    margin-top: 200px;
+  }
+
+  .fade-in-text h1{
+    color: white;
+    margin: 30px 0 10px 0;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: white;
+}
+.fade-in-text h2{
+    color: white;
+}
+.fade-in-text p{
+    color: white;
+}
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; transform: scale(1.5); transition: transform .1s; }
+}
+
+    /* for Logo end */
+
+
+
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
